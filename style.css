@@ -1,0 +1,80 @@
+html{
+    margin: 0%;
+    padding: 0%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(240, 73%, 65%);
+}
+body{
+    color: hsl(238, 29%, 16%);
+}
+.faq1{
+    background-color: white ;
+    width: 1000px;
+    padding: 50px;
+    /* display: flex; */
+    border-radius: 20px;
+    font-size: 16px;
+    background-image: url(/images/bg-pattern-desktop.svg), url(/images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 900px, 550px;
+    
+    background-position: -450px,-90px ; 
+
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+
+.box{ 
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: -9%;
+}
+/* .woman{
+    width: 400px;
+    height: 300px; 
+    position: absolute;
+    top: 25%;
+    left: -7%;
+} */
+.faq{
+    text-align: left;
+    margin-left: 500px;
+    margin-bottom: 15px;
+}
+h1{
+    text-align: right;
+    margin-right: 305px;
+    margin-left: -150px;
+    margin-bottom: 30px;
+    color: hsl(238, 29%, 16%);
+}
+hr{
+    width: 350px;
+    background-color: hsl(240, 5%, 91%);
+}
+details{
+    padding: 10px
+}
+details summary{
+    cursor: pointer;
+    list-style: inside;
+}
+details summary:hover{
+    color: hsl(14, 88%, 65%);
+}
+details summary:focus{
+    color: hsl(238, 29%, 16%);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 375px) {
+    
+}
+
